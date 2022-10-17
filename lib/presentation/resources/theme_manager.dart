@@ -62,30 +62,55 @@ ThemeData getApplicationTheme() {
     /// Text Theme
 
     textTheme: TextTheme(
+      //
       headlineLarge: TextStyle(
         fontFamily: FontConstants.fontFamily,
         fontSize: FontsSize.s18,
         fontWeight: FontWeightManger.semiBold,
         color: ColorsManger.darkGrey,
       ),
+
+      // For title
       displayLarge: TextStyle(
-      fontFamily: FontConstants.fontFamily,
-      fontSize: FontsSize.s22,
-      fontWeight: FontWeightManger.light,
-      color: ColorsManger.white,
-    ),
+        fontFamily: FontConstants.fontFamily,
+        fontSize: FontsSize.s16,
+        fontWeight: FontWeightManger.semiBold,
+        color: ColorsManger.darkGrey,
+      ),
+
+      // For SubTitle
+      headlineMedium: TextStyle(
+        fontFamily: FontConstants.fontFamily,
+        fontSize: FontsSize.s14,
+        fontWeight: FontWeightManger.regular,
+        color: ColorsManger.darkGrey,
+      ),
+
+      //
       titleLarge: TextStyle(
         fontFamily: FontConstants.fontFamily,
         fontSize: FontsSize.s16,
         fontWeight: FontWeightManger.medium,
         color: ColorsManger.lightGrey,
       ),
+
+      //
+      titleMedium: TextStyle(
+        fontFamily: FontConstants.fontFamily,
+        fontSize: FontsSize.s16,
+        fontWeight: FontWeightManger.medium,
+        color: ColorsManger.primary,
+      ),
+
+      //
       bodyLarge: TextStyle(
         fontFamily: FontConstants.fontFamily,
         fontSize: FontsSize.s14,
         fontWeight: FontWeightManger.regular,
         color: ColorsManger.grey1,
       ),
+
+      //
       bodySmall: TextStyle(
         fontFamily: FontConstants.fontFamily,
         fontSize: FontsSize.s14,
